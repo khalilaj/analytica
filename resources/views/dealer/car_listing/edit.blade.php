@@ -18,7 +18,7 @@
                         <div class="card-content">
                             <form method="POST"  action="{{ url ('/dealer/car_listing/edit', ['id' => $car_listing->id]) }}" enctype="multipart/form-data">
                                 @csrf
-                                <input name="_method" type="hidden" value="PUT">
+                                <input name="_method" type="hidden" value="POST">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group label-floating">
