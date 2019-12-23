@@ -18,7 +18,7 @@
                         <div class="card-content">
                             <form method="POST"  action="{{ url ('/dealer/car_listing/edit', ['id' => $car_listing->id]) }}" enctype="multipart/form-data">
                                 @csrf
-                                <input name="_method" type="hidden" value="POST">
+                                <input name="_method" type="hidden" value="PUT">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group label-floating">
@@ -73,7 +73,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <label class="control-label">Image</label>
-                                        <input type="file" name="image" value="{{ $car_listing->image }}">
+                                        <input type="file" name="image" >
                                     </div>
                                 </div>
                                 <div class="row" style="margin-top:15px">
