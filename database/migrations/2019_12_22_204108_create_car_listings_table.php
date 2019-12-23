@@ -20,6 +20,9 @@ class CreateCarListingsTable extends Migration
             $table->string('car_manufacturer');
             $table->text('description');
             $table->integer('price');
+            $table->integer('user_visits');
+            $table->integer('whatsapp_calls');
+            $table->integer('phone_calls');
             $table->string('image');
             $table->timestamps();
         });

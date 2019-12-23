@@ -66,6 +66,9 @@ class CarListingController extends Controller
         $car_listing->car_manufacturer = $request->car_manufacturer;
         $car_listing->car_model = $request->car_model;
         $car_listing->price = $request->price;
+        $car_listing->user_visits = 0;
+        $car_listing->whatsapp_calls = 0;
+        $car_listing->phone_calls = 0;
         $car_listing->image = $imagename;
         $car_listing->save();
         return redirect('dealer/car_listing')->with('successMsg','Car Listing Successfully Created'); 
