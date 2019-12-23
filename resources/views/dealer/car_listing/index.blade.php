@@ -47,8 +47,6 @@
                                             <td >
                                                 <a href="{{ url ('/dealer/car_listing/show', ['id' => $car_listing->id]) }}" class="btn btn-warning btn-sm"><i class="material-icons">timeline</i></a>
 
-                                                <a  href="{{ url ('/dealer/car_listing/edit', ['id' => $car_listing->id]) }}" class="btn btn-info btn-sm"><i class="material-icons">mode_edit</i></a>
-
                                                </td>
                                         </tr>
                                     @endforeach
