@@ -11,10 +11,10 @@
     <title>@yield('title')</title>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset('frontend/css/font-awesome.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/metisMenu.css')}}" media="all"> 
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/style.css')}}">
+    <link rel="stylesheet" href="{{ secure_asset('frontend/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('frontend/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('frontend/css/metisMenu.css')}}" media="all"> 
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('frontend/css/style.css')}}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.3/css/bootstrap-select.min.css"/>
     <!--     Fonts and icons     -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
@@ -42,9 +42,9 @@
 
     <!-- Scripts -->
     <!--   Core JS Files   -->
-    <script type="text/javascript" src="{{ asset('frontend/js/jquery.min.js')}}"></script>
-    <script type="text/javascript" src="{{ asset('frontend/js/bootstrap.min.js')}}"></script> 
-    <script src="{{ asset('backend/js/bootstrap-notify.js') }}"></script>
+    <script type="text/javascript" src="{{ secure_asset('frontend/js/jquery.min.js')}}"></script>
+    <script type="text/javascript" src="{{ secure_asset('frontend/js/bootstrap.min.js')}}"></script> 
+    <script src="{{ secure_asset('backend/js/bootstrap-notify.js') }}"></script>
     {!! Toastr::message() !!}
     @stack('scripts')
 </body>
