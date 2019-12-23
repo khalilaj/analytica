@@ -1,12 +1,3 @@
-<footer class="footer">
-    <div class="container-fluid">
-        <p class="copyright pull-right">
-            &copy;
-            <script>
-                document.write(new Date().getFullYear())
-            </script>
-            <strong> Developed &amp; <i class="far fa-heart"></i> by </strong>
-                        <a href="https://www.youtube.com/channel/UCwbVAlvrsD2Tpx93bleNbOA" target="_blank">Top Car</a>
-        </p>
-    </div>
-</footer>
+<div class="footer">
+        <span>Copyright &copy; 2020 TopCar</span>
+</div>
