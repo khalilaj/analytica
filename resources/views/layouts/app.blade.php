@@ -10,7 +10,8 @@
 
     <title>@yield('title')</title>
 
-    <!-- Styles --> 
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ secure_asset('frontend/css/font-awesome.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ secure_asset('frontend/css/bootstrap.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ secure_asset('frontend/css/metisMenu.css')}}" media="all"> 
     <link rel="stylesheet" type="text/css" href="{{ secure_asset('frontend/css/style.css')}}">
