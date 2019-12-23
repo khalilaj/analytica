@@ -9,11 +9,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge" />
  
-        <link rel="stylesheet" href="{{ asset('frontend/css/font-awesome.min.css') }}">
-        <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/bootstrap.min.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/metisMenu.css')}}" media="all">
-        <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/morris-0.4.3.min.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/style.css')}}">
+        <link rel="stylesheet" href="{{ secure_asset('frontend/css/font-awesome.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ secure_asset('frontend/css/bootstrap.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{ secure_asset('frontend/css/metisMenu.css')}}" media="all">
+        <link rel="stylesheet" type="text/css" href="{{ secure_asset('frontend/css/morris-0.4.3.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{ secure_asset('frontend/css/style.css')}}">
     </head>
     <body class="fixed-left">
 <div class="container">
@@ -91,27 +91,10 @@
             </div>
         </div>
         <!-- Plugins  -->
-     <script type="text/javascript" src="{{ asset('frontend/js/jquery.min.js')}}"></script>
-    <script type="text/javascript" src="{{ asset('frontend/js/bootstrap.min.js')}}"></script>
-    <script type="text/javascript" src="{{ asset('frontend/js/jquery.slimscroll.js')}}"></script>
-    <script type="text/javascript" src="{{ asset('frontend/js/moment.js')}}"></script>
-    <script type="text/javascript" src="{{ asset('frontend/js/jquery.sparkline.min.js')}}"></script>
-    <script type="text/javascript" src="{{ asset('frontend/js/jquery.flot.js')}}"></script>
-    <script type="text/javascript" src="{{ asset('frontend/js/jquery.flot.time.js')}}"></script>
-    <script type="text/javascript" src="{{ asset('frontend/js/jquery.flot.tooltip.min.js')}}"></script>
-    <script type="text/javascript" src="{{ asset('frontend/js/jquery.flot.resize.js')}}"></script>
-    <script type="text/javascript" src="{{ asset('frontend/js/jquery.flot.pie.js')}}"></script>
-    <script type="text/javascript" src="{{ asset('frontend/js/jquery.flot.selection.js')}}"></script> 
- 
-    <script type="text/javascript" src="{{ asset('frontend/js/jquery.flot.stack.js')}}"></script> 
-    <script type="text/javascript" src="{{ asset('frontend/js/jquery.flot.crosshair.js')}}"></script> 
-    <script type="text/javascript" src="{{ asset('frontend/js/raphael-2.1.0.min.js')}}"></script> 
-    <script type="text/javascript" src="{{ asset('frontend/js/morris.js')}}"></script> 
-    <script type="text/javascript" src="{{ asset('frontend/js/Chart.min.js')}}"></script> 
-    <script type="text/javascript" src="{{ asset('frontend/js/core.js')}}"></script> 
-    <script type="text/javascript" src="{{ asset('frontend/js/mediaquery.js')}}"></script> 
-    <script type="text/javascript" src="{{ asset('frontend/js/equalize.js')}}"></script> 
-    <script type="text/javascript" src="{{ asset('frontend/js/app.js')}}"></script> 
+      <!--   Core JS Files   -->
+      <script type="text/javascript" src="{{ secure_asset('frontend/js/jquery.min.js')}}"></script>
+     <script type="text/javascript" src="{{ secure_asset('frontend/js/bootstrap.min.js')}}"></script> 
+     <script src="{{ secure_asset('backend/js/bootstrap-notify.js') }}"></script>
     </body>
 
 
